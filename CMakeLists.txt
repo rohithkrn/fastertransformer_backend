@@ -110,8 +110,8 @@ if (EXISTS ${FT_DIR})
 else()
   FetchContent_Declare(
     repo-ft
-    GIT_REPOSITORY https://github.com/NVIDIA/FasterTransformer.git 
-    GIT_TAG main
+    GIT_REPOSITORY https://github.com/rohithkrn/FasterTransformer.git
+    GIT_TAG llama_void_main
     GIT_SHALLOW ON
   )
 endif()
